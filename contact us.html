@@ -1,0 +1,140 @@
+<html>
+<head>
+<style>
+
+                
+* {
+  box-sizing: border-box;
+  }
+body{   background-image:url('pexels.jpeg');
+          
+          position: relative;
+          background-size:1000px 600px;
+          border-radius: 10px;
+          color:white;
+         text-decoration:bold;
+        background-repeat:no-repeat;
+                
+      } 
+
+
+
+
+           #id1 {
+                font-size:175%;
+                color:white;
+                text-align:center;
+                margin-right:50;
+                text-align:center;
+                
+               }
+ h1
+{
+   font-family:"fantasy";
+   font-size:400%;
+   text-align:center;
+   color:#3c1053ff;
+ } 
+ h2
+{
+   font-family:"fantasy";
+   font-size:150%;
+   
+   color:#3c1053ff;
+ } 
+input[type=text], select, textarea {
+  width: 80%;
+  
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+ 
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+} 
+
+</style>
+</head>
+<body>
+ <a href="first.html" id="id1"><b>Home</b></a>&nbsp;
+ <a href="left.html" id="id1"><b>Gallery</b></a>&nbsp;
+<a href="third.html" id="id1"><b>services</b></a>&nbsp;
+  <a href="reg2.html" id="id1"><b>Register</b></a>&nbsp;
+<a href="contact us.html" id="id1"><b>Contact Us</b></a>&nbsp;
+ <a href="aboutus.html" id="id1"><b>About Us</b></a>&nbsp;
+<div class="container">
+  <div style="text-align:center">
+    <h1><b>Contact Us</b></h1>
+    <p></p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="map.jpg" style="width:100%"><br><br>
+       <img src="qq1.png" style="width:80%">
+
+    </div>
+    <div class="column">
+      <form>
+ <label for="fname"><b><h2>First Name:</h2></b></label>
+        <input type="text" id="fname" name="firstname" placeholder=" Enter Your name..">
+  
+        <label for="lname"><b><h2>E-mail</h2></b></label>
+        <input type="text" id="email" name="email" placeholder="Enter email address..">
+        <label for="country"><b><h2>Subject</h2></b></label>
+        <input type="text" id="lname" name="lastname" placeholder="Enter subjects..">
+       
+        <label for="subject"><b><h2>Message</h2></b></label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="submit">
+
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
